@@ -1,0 +1,22 @@
+#logo {
+    animation: App-logo-spin infinite 10s linear;
+}
+  
+.product {
+    transition: inherit;
+    visibility: visible;
+    height: auto;
+    transition: all 1s ease;
+}
+
+.product.hidden-card {
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.category-btn {
+    cursor: pointer;
+}
+.category-btn:focus {
+    text-decoration: underline;
+}

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import React from "react";
 import ProductCard from './ProductCard';
 
-const API_URL = 'https://644843a9e7eb3378ca2b5ae4.mockapi.io/api/parts'
+const API_URL = 'https://64485599e7eb3378ca2c9a10.mockapi.io/parts'
 
 function ProductsList() {
     const [products, setProducts] = useState([]);
